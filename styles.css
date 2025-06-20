@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    background-color: #444746;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    padding: 15px 20px;
+    font-size: larger;
+    cursor: pointer;
+}
+table{
+    border-spacing: 5px;
+    max-width: 232px;
+    table-layout: fixed;
+}
+.input{
+    background-color: #efefef;
+    text-align: right;
+    vertical-align: middle;
+    max-width: 100%;
+    overflow: hidden;
+}
+.scrollable{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+}
+td span{
+    visibility: hidden;
+}
+table, td{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    background-color: #d1cacb;
+}
+.digit{
+    background-color: #efefef;
+}
+.digit:hover{
+    background-color: #e0dfdf;
+}
+.clear{
+    background-color: #ee4747;
+}
+.clear:hover{
+    background-color: #e34444;
+}
+.operator, .equals{
+    background-color: #fea503;
+}
+.operator:hover, .equals:hover{
+    background-color: #e49a12;
+}
+.decimal{
+    background-color: #028301;
+}
+.decimal:hover{
+    background-color: #017901;
+}
