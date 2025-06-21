@@ -18,15 +18,11 @@ table{
 .input{
     background-color: #efefef;
     text-align: right;
-    vertical-align: middle;
-    max-width: 100%;
     overflow: hidden;
-}
-.scrollable{
-    display: block;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 100%;
+    max-width: 180px;
+    scrollbar-width: none;
 }
 td span{
     visibility: hidden;
