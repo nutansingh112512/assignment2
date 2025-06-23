@@ -40,10 +40,10 @@ table{
 .digit:hover{
     background-color: #e0dfdf;
 }
-.clear{
+.clear, .back{
     background-color: #ee4747;
 }
-.clear:hover{
+.clear:hover, .back:hover{
     background-color: #e34444;
 }
 .operator, .equals{
