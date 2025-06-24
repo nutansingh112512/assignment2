@@ -26,7 +26,7 @@ table.addEventListener("click",function(e){
         if(expression=="" && value!="-"){
             // to accept -ve values. if first char is operator and not '-' then do nothing
         }
-        else{
+        else if(!"+-/*".includes(expression[expression.length-1])){
             equals=false;
             expression += value;
         }
